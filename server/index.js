@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
   res.send('Hello to Past Pulse')
 })
 
-const CONNECTION_URL = 'mongodb+srv://ahmedgazow:1234@cluster0.qcm3ixz.mongodb.net/';
+const CONNECTION_URL = 'mongodb://Ahmed:123@zeet-prometheus.zeet-hamada-team.zeet.app';
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
