@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://zeet-hamada-team.zeet.app' });
+const API = axios.create({ baseURL: 'https://kd8fruancl.execute-api.us-west-2.amazonaws.com/' });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('profile')) {
