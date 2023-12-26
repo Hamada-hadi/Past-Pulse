@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://kd8fruancl.execute-api.us-west-2.amazonaws.com/' });
+const API = axios.create({ baseURL: 'https://le57jtuewb.execute-api.us-west-2.amazonaws.com/' });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem('profile')) {
